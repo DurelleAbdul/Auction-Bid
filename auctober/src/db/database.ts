@@ -1,4 +1,4 @@
-import { env } from "@t3-oss/env-nextjs";
+import { env } from "@/src/env";
 import * as schema from "./schema";
 import { PostgresJsDatabase, drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
